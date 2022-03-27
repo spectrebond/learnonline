@@ -1,0 +1,14 @@
+.uploadCard{
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    color: #212121;
+    width: 80%;
+    margin: 20px 0;
+    padding: 20px;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+.uploadCard > h2{
+    font-weight: 400;
+}
