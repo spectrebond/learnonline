@@ -234,6 +234,46 @@ function Document() {
       value: 'eh',
       label: 'Ethical Hacking',
     },
+    {
+      value: 'emg',
+      label: 'Engineering Mathematics GATE',
+    },
+    {
+      value: 'dlg',
+      label: 'DLD GATE',
+    },
+    {
+      value: 'coag',
+      label: 'COA GATE',
+    },
+    {
+      value: 'pdg',
+      label: 'P & DS GATE',
+    },
+    {
+      value: 'alg',
+      label: 'Algorithm Gate',
+    },
+    {
+      value: 'tocg',
+      label: 'TOC GATE',
+    },
+    {
+      value: 'cdg',
+      label: 'Compiler GATE',
+    },
+    {
+      value: 'osg',
+      label: 'OS GATE',
+    },
+    {
+      value: 'dbg',
+      label: 'DB GATE',
+    },
+    {
+      value: 'cng',
+      label: 'Network GATE',
+    },
   ];
   const handleTopicChange = (event) => {
     setTopic(event.target.value);
