@@ -1,8 +1,8 @@
 import { Button } from '@material-ui/core'
-import { Delete } from '@material-ui/icons'
+import { ArrowDownward, Delete } from '@material-ui/icons'
 import React from 'react'
 import './UploadCard.css'
-function UploadCard({id, name}) {
+function UploadCard({id, name, url}) {
     
     const URL = 'https://kernelbackend.herokuapp.com/api/docs/'
 
@@ -21,10 +21,19 @@ function UploadCard({id, name}) {
 
     }
 
+    const download = async() =>{
+        
+        window.open(url)
+    
+    }
+
     return (
         <div className='uploadCard'>
             <h2>{name}</h2>
+            <div className="operationBtns">
             <Button className='logout' variant='contained' startIcon={<Delete />} onClick={del}>Delete</Button>
+            <Button variant='contained' startIcon={<ArrowDownward />} onClick={download}>Download</Button>
+            </div>
         </div>
     )
 }

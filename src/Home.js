@@ -458,6 +458,36 @@ function Home() {
     if (topic === "web") {
       postVID("web",user?.username)
     }
+    if (topic === "emg") {
+      postVID("emg","admin")
+    }
+    if (topic === "dlg") {
+      postVID("dlg","admin")
+    }
+    if (topic === "coag") {
+      postVID("coag","admin")
+    }
+    if (topic === "pdg") {
+      postVID("pdg","admin")
+    }
+    if (topic === "alg") {
+      postVID("alg","admin")
+    }
+    if (topic === "tocg") {
+      postVID("tocg","admin")
+    }
+    if (topic === "cdg") {
+      postVID("cdg","admin")
+    }
+    if (topic === "osg") {
+      postVID("osg","admin")
+    }
+    if (topic === "dbg") {
+      postVID("dbg","admin")
+    }
+    if (topic === "cng") {
+      postVID("cng","admin")
+    }
   }
 
 

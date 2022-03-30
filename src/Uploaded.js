@@ -31,7 +31,7 @@ function Uploaded() {
             <div className="uploaded_bottom">
                 {
                     docs.map(doc => (
-                        <UploadCard key={doc._id} name={doc.topic} id={doc._id}/>
+                        <UploadCard key={doc._id} name={doc.topic} id={doc._id} url={doc.docsUrl}/>
                     ))
                 }  
             </div> 
